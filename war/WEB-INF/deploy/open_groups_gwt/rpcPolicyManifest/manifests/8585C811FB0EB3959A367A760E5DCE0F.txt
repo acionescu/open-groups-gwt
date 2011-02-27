@@ -1,0 +1,2 @@
+serviceClass: ro.zg.opengroups.gwt.client.OpenGroupsService
+path: AEC74C95CCBA3DCE0560872D93184908.gwt.rpc

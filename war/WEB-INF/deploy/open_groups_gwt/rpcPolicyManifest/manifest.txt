@@ -1,0 +1,2 @@
+# Module open_groups_gwt
+# RPC service class, partial path of RPC policy file

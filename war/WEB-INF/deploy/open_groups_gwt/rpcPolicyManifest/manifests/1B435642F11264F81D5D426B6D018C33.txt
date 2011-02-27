@@ -1,0 +1,2 @@
+serviceClass: ro.zg.opengroups.gwt.client.TypesLoader
+path: 49ABC2BF1F4F277F2882ED243806AB92.gwt.rpc

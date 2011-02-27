@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE module PUBLIC "-//Google Inc.//DTD Google Web Toolkit 2.1.1//EN" "http://google-web-toolkit.googlecode.com/svn/tags/2.1.1/distro-source/core/src/gwt-module.dtd">
+<module rename-to='open_groups_gwt'>
+   <!-- Inherit the core Web Toolkit stuff.                        -->
+   <inherits name='com.google.gwt.user.User' />
+   <inherits name='com.google.gwt.i18n.I18N'/>
+   <!-- Inherit the default GWT style sheet.  You can change       -->
+   <!-- the theme of your GWT application by uncommenting          -->
+   <!-- any one of the following lines.                            -->
+   <inherits name='com.google.gwt.user.theme.standard.Standard' />
+   <!-- <inherits name='com.google.gwt.user.theme.chrome.Chrome'/> -->
+<!--   <inherits name='com.google.gwt.user.theme.standard.StandardResources'/>    -->
+   <!-- <inherits name='com.google.gwt.user.theme.dark.Dark'/>     -->
+   <!-- Other module inherits                                      -->
+   <inherits name='ro.zg.webapp.core.WebappCore' />
+<!--   <inherits name='ro.zg.util.Util'/>-->
+   <!-- Specify the app entry point class.                         -->
+<!--   <entry-point class='ro.zg.opengroups.gwt.client.Open_groups_gwt' />-->
+   <!-- Specify the paths for translatable code                    -->
+   
+   <extend-property name="locale" values="ro_RO"/>
+   <extend-property name="locale" values="en_US"/>
+   
+   
+   <source path='client' />
+   <source path='shared' />
+   <source path='lib' />
+   <entry-point class="ro.zg.opengroups.gwt.client.OpenGroupsApp"></entry-point>
+</module>

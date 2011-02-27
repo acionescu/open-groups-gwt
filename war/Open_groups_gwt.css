@@ -1,0 +1,113 @@
+.og-CommandsTabBar {
+	
+}
+
+.og-CommandsTabBar .gwt-TabBarFirst { /*width: 5px; */
+	/* first tab distance from the left */
+	width: 0px;
+}
+
+.og-CommandsTabBar .gwt-TabBarRest {
+	
+}
+
+.og-CommandsTabBar .gwt-TabBarItem {
+	margin-right: 2px;
+	padding: 3px 6px 3px 6px;
+	cursor: pointer;
+	cursor: hand;
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	background: #d0e4f6;
+}
+
+.og-CommandsTabBar .gwt-TabBarItem-selected {
+	cursor: default;
+	background: #92c1f0;
+}
+
+.og-CommandsTabBar .gwt-TabBarItem-disabled {
+	cursor: default;
+	color: #999999;
+}
+
+.gwt-TabPanel {
+	
+}
+
+.og-CommandsTabPanelBottom {
+	border-color: #92c1f0;
+	/*
+  border-style: solid;
+  border-width: 3px 2px 2px;
+  */
+	border-width: 0px;
+	overflow: hidden;
+	padding-top: 2px;
+}
+
+.og-EntitiesList {
+	
+}
+
+.og-EntityTypeLabel {
+	margin-right: 20px;
+}
+
+.og-ActionTypeLabel {
+	margin-right: 20px;
+}
+
+.og-QuickLink {
+	margin-right: 20px;
+	float: right;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.og-QuickLinkPane {
+	width: 100%;
+	height: 30px;
+	background-color: #eeeeee;
+}
+
+.og-EntityContentPane {
+	padding: 10px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+	height: 220px;
+}
+
+.og-EntityDataPane {
+	width: 100%;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.og-DataPane {
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+}
+
+.og-MainPane {
+	width: 100%;
+}
+
+.og-PrevPage {
+	background-image: url(/images/prev.jpg);
+	display: block;
+	height: 32px;
+	text-indent: -9999px;
+	width: 32px;
+}
+
+.og-NextPage {
+	background-image: url(/images/next.jpg);
+	display: block;
+	height: 32px;
+	text-indent: -9999px;
+	width: 32px;
+}
